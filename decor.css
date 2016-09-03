@@ -1,0 +1,198 @@
+* { /* Сброс всего необходимого */
+   vertical-align: baseline;
+   text-decoration: none;
+   font-weight: inherit;
+   font-family: inherit;
+   font-style: inherit;
+   font-size: 100%;
+   outline: 0;
+   padding: 0;
+   margin: 0;
+   
+}
+
+body
+{
+	background-color: gray;
+}
+
+header, .centr, footer
+{
+	width: 885px;
+	margin: auto;
+	background-color:white;
+	border-radius:10px;
+	padding: 10px;
+	
+}
+a
+{
+	text-decoration: underline;
+}
+.menu li
+{
+	display:inline;
+	padding:5px;
+	position: relative;
+}
+
+h1
+{
+    font-weight: bold;
+	font-size: 35px;
+	margin: 35px;
+		
+}
+.logo
+{
+  width: 190px;
+  height: 120px;  
+  
+  float:left;
+}
+
+ address
+{
+	font-style: italic;
+	text-align: center;
+}
+
+.copy
+{
+
+   text-align:center;
+   
+}
+i, em
+{
+	font-style: italic;
+}
+b, strong
+{
+	
+	font-weight: bold;
+}
+
+.centr
+{
+	font-family: Verdana;
+	text-align: justify;	
+}
+.groups
+{
+	margin-left: 30px;
+}
+dt
+{
+	margin-left: inherit;
+}
+dd
+{
+	margin-left:30px;
+}
+.add_inform
+{
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: inherit;
+	margin-left: 10px;
+	width: 250px;
+	font-size: 13px;
+	float: right;
+	font-family: Arial;
+}
+.add_header
+{
+   font-size: 16px;
+   font-weight: bold;
+}
+h2
+{
+	font-size: 27px;
+	font-weight:bold;
+	margin-bottom: 5px;
+}
+h3
+{
+	font-size: 20px;
+	font-weight:bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.calculat
+{
+	
+	margin: auto;
+	width: 350px;
+	padding: 50px;
+	
+}
+table 
+{   
+	width: 100%;
+	border-spacing: 4px 4px;
+	border:0;
+	
+}
+  tr
+  {
+	  border:0;
+
+  } 
+td{
+	border:0;
+	width: 65px;
+	height: 40px;
+	position: relative;
+	
+}  
+  button
+  {
+	  height: 40px;
+	  width: 100%;
+	  border-radius: 3px;
+	  
+  }
+  #equal
+  {
+	  height:83px;
+	  position: absolute;
+	  top: 0%;
+	  border-radius: 3px;
+	  
+  }
+ 
+  #window
+  {
+	 width: 345px;
+	 height:inherit;
+	 border: 1px outset #AFAFAF;
+	 border-radius: 3px;
+	 
+  }
+  #send
+   {
+	  width:100px;
+	  height: 25px;
+  }
+  
+ 
+nav .dropdown
+{
+	position: absolute;
+	top: 100%;
+	width: 100px;
+	left: 5px;
+	background: white;
+	border: solid 1px;
+	border-radius:5px;
+	border-color: black;
+	padding: 5px;
+	margin-top: -6px;
+	display: none;
+}
+nav li:hover .dropdown
+{
+	display: block;
+}
+
